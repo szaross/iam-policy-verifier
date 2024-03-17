@@ -1,6 +1,6 @@
 # IAM Role Policy Verifier
 
-This Python module provides a method to verify the input JSON data format for AWS IAM Role Policies. The method checks if the input JSON Resource field contains a single asterisk and returns `True` if it doesn't, otherwise it returns `False`.
+This Python module provides a method to verify the input JSON data format for AWS IAM Role Policies. The method checks if the input JSON Resource field contains a single asterisk, if so it returns `False`. In any other case it returns `True`.
 
 ## Usage
 `example.py` contains an example usage of the method.
