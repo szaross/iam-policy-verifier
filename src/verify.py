@@ -16,6 +16,7 @@ def verify_json(data: dict) -> bool:
         if type(element) == dict and "Resource" in element:
             resource_object = element
 
+    # this shouldn't really happen, as "Resource" is a required field
     if not resource_object:
         raise Exception
 
