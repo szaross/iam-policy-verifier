@@ -33,3 +33,6 @@ from src import load_json
 json_data = load_json("example")
 result = verify_json(json_data)
 ```
+
+## Tests
+To run all tests run `python -m unittest` command from the main directory.
